@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Motifs & Pattern Backgrounds */
+.bg-textile-pattern {
+  background-color: #FAF6F0;
+  background-image: radial-gradient(#8E2A2A 0.45px, transparent 0.45px), radial-gradient(#8E2A2A 0.45px, #FAF6F0 0.45px);
+  background-size: 18px 18px;
+  background-position: 0 0, 9px 9px;
+}
+
+.bg-maroon-pattern {
+  background-color: #8E2A2A;
+  background-image: radial-gradient(#C89B54 0.5px, transparent 0.5px);
+  background-size: 16px 16px;
+}
+
+.bg-ivory-warm {
+  background-color: #FAF6F0;
+}
+
+.text-terracotta {
+  color: #8E2A2A;
+}
+
+.bg-terracotta {
+  background-color: #8E2A2A;
+}
+
+.border-terracotta {
+  border-color: #8E2A2A;
+}
+
+.text-ochre {
+  color: #C89B54;
+}
+
+.bg-ochre {
+  background-color: #C89B54;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C4B9AD;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8E2A2A;
+}
