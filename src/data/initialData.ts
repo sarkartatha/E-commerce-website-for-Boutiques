@@ -186,7 +186,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       technique: 'Double-Sided Wood Block Stamping',
       colour: 'Harda, Iron Rust & Natural Indigo Dyes',
       washCare: 'Mild detergent hand wash.',
-      productionInfo: 'Printed with precision symmetry by Bahari artisans.',
+      productionInfo: 'Printed with precision symmetry by Karuna Woven with Dream artisans.',
       origin: 'Kolkata, West Bengal, India'
     },
     craftStory: 'Ajrakh printing requires multi-stage resist printing and multiple natural dye dips to achieve its legendary depth of color.',
