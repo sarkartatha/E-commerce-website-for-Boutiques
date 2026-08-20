@@ -73,7 +73,13 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [searchQuery, setSearchQuery] = useState<string>('');
 
   const [products, setProducts] = useState<Product[]>(() => getStored('bahari_products', INITIAL_PRODUCTS));
-  const [settings, setSettings] = useState<StoreSettings>(() => getStored('bahari_settings', INITIAL_SETTINGS));
+  const [settings, setSettings] = useState<StoreSettings>(() => {
+    const stored = getStored<StoreSettings>('bahari_settings', INITIAL_SETTINGS);
+    if (!stored.address || stored.address.includes('Vivekananda') || stored.address.includes('Mukundapur') || stored.address.includes('700099')) {
+      return { ...stored, address: INITIAL_SETTINGS.address };
+    }
+    return stored;
+  });
   const [cart, setCart] = useState<CartItem[]>(() => getStored('bahari_cart', []));
   const [wishlist, setWishlist] = useState<string[]>(() => getStored('bahari_wishlist', []));
   const [orders, setOrders] = useState<Order[]>(() => getStored('bahari_orders', []));

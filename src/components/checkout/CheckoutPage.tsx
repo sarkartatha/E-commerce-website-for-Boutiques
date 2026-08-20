@@ -207,7 +207,7 @@ export const CheckoutPage: React.FC = () => {
                   <input
                     type="text"
                     required
-                    placeholder="e.g. 700099"
+                    placeholder="e.g. 700074"
                     value={customer.pinCode}
                     onChange={(e) => setCustomer({ ...customer, pinCode: e.target.value })}
                     className="w-full px-4 py-2.5 bg-[#FAF6F0] border border-[#D5C9B8] rounded-xl text-xs"
