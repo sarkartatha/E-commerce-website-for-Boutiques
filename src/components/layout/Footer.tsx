@@ -15,12 +15,15 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full border border-[#C89B54] overflow-hidden bg-white shadow-md shrink-0">
-                <img src={settings.avatarUrl || '/profile_picture.jpg'} alt="Karuna Woven with Dream" className="w-full h-full object-cover" />
+                <img src={settings.avatarUrl || '/profile_picture.jpg'} alt="Karuna - Woven With Dream" className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="font-serif text-xl font-bold text-white tracking-wide">
-                  Karuna Woven with Dream
+                  Karuna
                 </h3>
+                <p className="text-xs text-[#C89B54] font-medium tracking-wider uppercase">
+                  Woven With Dream
+                </p>
               </div>
             </div>
 
