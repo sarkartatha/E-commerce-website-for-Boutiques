@@ -53,7 +53,7 @@ export const CRAFT_CATEGORIES: CraftCategoryInfo[] = [
     name: 'Dyeing & Texturing',
     tagline: 'Rich Organic Hues',
     description: 'Vegetable dye baths, clamp texturing, tie-dye and crinkle finishing for soft, skin-friendly fabrics.',
-    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&q=80&w=800'
+    image: '/natural_dye_prep.jpg'
   },
   {
     id: 'craft-custom-work',
@@ -246,7 +246,7 @@ export const CRAFT_PROCESS_STEPS = [
     step: '03',
     title: 'Natural Dye & Pigment Prep',
     description: 'Mineral pigments, indigo, madder root, and natural binders are mixed in clay and brass dye trays to exact ancestral color formulas.',
-    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&q=80&w=600'
+    image: '/natural_dye_prep.jpg'
   },
   {
     step: '04',
