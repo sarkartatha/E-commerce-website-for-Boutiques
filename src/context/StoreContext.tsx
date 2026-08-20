@@ -74,7 +74,16 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const [products, setProducts] = useState<Product[]>(() => {
     const stored = getStored<Product[]>('bahari_products', INITIAL_PRODUCTS);
-    return stored.filter(p => p.id !== 'bahari-003' && p.slug !== 'hand-wax-batik-cotton-mulmul-fabric');
+    const filtered = stored.filter(p => p.id !== 'bahari-003' && p.slug !== 'hand-wax-batik-cotton-mulmul-fabric');
+    return filtered.map(p => {
+      if (p.id === 'bahari-005' || p.slug === 'ajrakh-motif-cotton-unstitched-suit-set') {
+        return {
+          ...p,
+          images: ['/ajrakh_suit_set.jpg', ...(p.images.slice(1))]
+        };
+      }
+      return p;
+    });
   });
   const [settings, setSettings] = useState<StoreSettings>(() => {
     const stored = getStored<StoreSettings>('bahari_settings', INITIAL_SETTINGS);

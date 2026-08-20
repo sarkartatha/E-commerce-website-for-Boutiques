@@ -170,7 +170,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 2950,
     salePrice: 2690,
     images: [
-      'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&q=80&w=1000',
+      '/ajrakh_suit_set.jpg',
       'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=1000'
     ],
     category: 'Ready-to-Wear',
