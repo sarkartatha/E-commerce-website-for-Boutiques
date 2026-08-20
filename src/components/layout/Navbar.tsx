@@ -81,17 +81,14 @@ export const Navbar: React.FC = () => {
             <div className="relative w-12 h-12 rounded-full border-2 border-[#8E2A2A] overflow-hidden bg-white shadow-sm group-hover:scale-105 transition-transform duration-300">
               <img
                 src={settings.avatarUrl || '/profile_picture.jpg'}
-                alt="Woven With Dream by Karuna"
+                alt="Karuna Woven with Dream"
                 className="w-full h-full object-cover"
               />
             </div>
 
             <div className="flex flex-col">
-              <span className="font-serif text-xl sm:text-2xl font-bold text-[#1F1C1B] tracking-tight group-hover:text-[#8E2A2A] transition-colors leading-none">
-                Woven With Dream
-              </span>
-              <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-[#8E2A2A] font-semibold mt-1">
-                by Karuna
+              <span className="font-serif text-lg sm:text-xl font-bold text-[#1F1C1B] tracking-tight group-hover:text-[#8E2A2A] transition-colors leading-none">
+                {settings.brandName || 'Karuna Woven with Dream'}
               </span>
             </div>
           </div>

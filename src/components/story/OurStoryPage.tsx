@@ -36,13 +36,13 @@ export const OurStoryPage: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#8E2A2A] text-white text-xs font-bold uppercase tracking-widest border border-amber-200/30">
             <Sparkles className="w-3.5 h-3.5 text-[#C89B54]" />
-            <span>Woven With Dream by Karuna</span>
+            <span>Karuna Woven with Dream</span>
           </div>
           <h1 className="font-serif text-4xl sm:text-6xl font-bold tracking-tight text-[#1F1C1B]">
             ✨ Experience the Timeless Elegance of the Saree.
           </h1>
           <p className="text-xs sm:text-base text-[#6E645A] leading-relaxed">
-            A symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna.
+            A symbol of Indian tradition and a celebration of feminine charm with Karuna Woven with Dream.
           </p>
         </div>
 
@@ -50,13 +50,13 @@ export const OurStoryPage: React.FC = () => {
         <div className="bg-white rounded-3xl p-8 sm:p-12 border border-[#E6DDD0] shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-6 space-y-4 text-xs sm:text-sm text-[#5E564E] leading-relaxed">
             <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1F1C1B]">
-              The Heart of Woven With Dream
+              The Heart of Karuna Woven with Dream
             </h2>
             <p>
-              Located at 37A Jessore Road, 2nd Floor, Nagerbazar Bus Stand (Opposite Petrol Pump), Kolkata – 700074, <strong>Woven With Dream</strong> was founded by Karuna out of a deep reverence for Indian saree heritage. In an era of mass manufacturing, Karuna chose the slower, more soulful path of hand block carving, freehand Kalamkari painting, and organic dyeing.
+              Located at 37A Jessore Road, 2nd Floor, Nagerbazar Bus Stand (Opposite Petrol Pump), Kolkata – 700074, <strong>Karuna Woven with Dream</strong> was founded by Karuna out of a deep reverence for Indian saree heritage. In an era of mass manufacturing, Karuna chose the slower, more soulful path of hand block carving, freehand Kalamkari painting, and organic dyeing.
             </p>
             <p>
-              Our studio is a living atelier where veteran master block carvers, young painters, and dyeing specialists collaborate daily. When you wear a saree from Woven With Dream by Karuna, you wear days of focused human artistry and feminine charm.
+              Our studio is a living atelier where veteran master block carvers, young painters, and dyeing specialists collaborate daily. When you wear a saree from Karuna Woven with Dream, you wear days of focused human artistry and feminine charm.
             </p>
           </div>
 

@@ -31,7 +31,7 @@ export const QuickViewModal: React.FC = () => {
     setTimeout(() => setAdded(false), 2000);
   };
 
-  const productWhatsAppMsg = `Hi Bahari, I'm interested in ${product.name} (₹${product.salePrice || product.price}). Could you please share more details or availability?`;
+  const productWhatsAppMsg = `Hi! I'm interested in ${product.name} (₹${product.salePrice || product.price}). Could you please share more details or availability?`;
 
   return (
     <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">

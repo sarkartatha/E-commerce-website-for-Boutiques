@@ -41,7 +41,7 @@ export const ContactPage: React.FC = () => {
             Visit or Get in Touch
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl font-bold text-[#1F1C1B]">
-            Contact Woven With Dream by Karuna
+            Contact Karuna Woven with Dream
           </h1>
           <p className="text-xs sm:text-base text-[#6E645A] leading-relaxed">
             We welcome retail customers, saree enthusiasts, boutique owners, and custom orders at our studio in Kolkata.
@@ -203,7 +203,7 @@ export const ContactPage: React.FC = () => {
               {/* Interactive Map Frame Embed */}
               <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100 border border-[#E6DDD0] relative shadow-inner">
                 <iframe
-                  title="Woven With Dream by Karuna Kolkata Location"
+                  title="Karuna Woven with Dream Kolkata Location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.376822839213!2d88.3976!3d22.4891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02710000000001%3A0x0!2zMjLCsDI5JzIwLjgiTiA4OMKwMjMnNTEuNCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
                   className="w-full h-full border-0"
                   loading="lazy"
@@ -212,7 +212,7 @@ export const ContactPage: React.FC = () => {
               </div>
 
               <div className="p-4 bg-[#FAF6F0] rounded-xl text-xs space-y-2 border border-[#E6DDD0]">
-                <strong className="block text-[#8E2A2A]">Woven With Dream Studio, Nagerbazar</strong>
+                <strong className="block text-[#8E2A2A]">Karuna Woven with Dream Studio, Nagerbazar</strong>
                 <p className="text-[#6E645A]">{settings.address}</p>
                 <a
                   href={getWhatsAppLink("Hi Karuna, I would like directions to visit your Kolkata studio.")}

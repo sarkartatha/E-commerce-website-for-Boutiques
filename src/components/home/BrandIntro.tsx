@@ -50,7 +50,7 @@ export const BrandIntro: React.FC = () => {
             </div>
 
             <p className="text-sm sm:text-base text-[#5E564E] leading-relaxed">
-              ✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with <strong>Woven With Dream by Karuna</strong>. Based in Nagerbazar, Kolkata, we bring together century-old artisan techniques — wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, vegetable dyeing, and texture treatments — into wearable pieces of living art.
+              ✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with <strong>Karuna Woven with Dream</strong>. Based in Nagerbazar, Kolkata, we bring together century-old artisan techniques — wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, vegetable dyeing, and texture treatments — into wearable pieces of living art.
             </p>
 
             <p className="text-sm sm:text-base text-[#5E564E] leading-relaxed">

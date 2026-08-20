@@ -115,7 +115,7 @@ export const ProductCard: React.FC<{
   getWhatsAppLink
 }) => {
   const isWishlisted = isInWishlist(product.id);
-  const waMsg = `Hi Bahari, I'm interested in ${product.name}. Could you please share details?`;
+  const waMsg = `Hi! I'm interested in ${product.name}. Could you please share details?`;
 
   return (
     <div className="group bg-white rounded-2xl overflow-hidden border border-[#E6DDD0] shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">

@@ -1,7 +1,7 @@
 import type { Product, CraftCategoryInfo, StoreSettings } from '../types';
 
 export const INITIAL_SETTINGS: StoreSettings = {
-  brandName: 'Woven With Dream',
+  brandName: 'Karuna Woven with Dream',
   ownerName: 'Karuna',
   tagline: 'Experience the timeless elegance of the saree',
   sinceYear: '2007',
@@ -10,12 +10,12 @@ export const INITIAL_SETTINGS: StoreSettings = {
   whatsappNumber: '916291525876', // Configurable via Admin Panel
   instagramHandle: 'woven_with_dream',
   address: '37A Jessore Road, 2nd Floor, Nagerbazar Bus Stand (Opposite Petrol Pump), Kolkata – 700074',
-  bio: '✨Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna.',
+  bio: '✨Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Karuna Woven with Dream.',
   avatarUrl: '/profile_picture.jpg',
   businessHours: 'Monday - Saturday: 10:00 AM - 7:30 PM (Sunday Closed)',
-  announcementText: '✨ Experience the timeless elegance of the saree with Woven With Dream by Karuna | Wholesale & Custom Orders Available',
+  announcementText: '✨ Experience the timeless elegance of the saree with Karuna Woven with Dream | Wholesale & Custom Orders Available',
   heroHeading: 'Where Every Weave Tells a Dream.',
-  heroSubtext: '✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna.',
+  heroSubtext: '✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Karuna Woven with Dream.',
   heroImage: 'https://images.unsplash.com/photo-1606744888344-49423b812d02?auto=format&fit=crop&q=80&w=1600'
 };
 
@@ -129,37 +129,6 @@ export const INITIAL_PRODUCTS: Product[] = [
     newArrival: true,
     handcrafted: true,
     createdAt: '2026-02-01'
-  },
-  {
-    id: 'bahari-003',
-    name: 'Hand-Wax Batik Cotton Mulmul Fabric (per meter)',
-    slug: 'hand-wax-batik-cotton-mulmul-fabric',
-    price: 480,
-    salePrice: 420,
-    images: [
-      'https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&q=80&w=1000',
-      'https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&q=80&w=1000'
-    ],
-    category: 'Fabrics',
-    craft: 'Hand Wax',
-    fabric: '100% Cotton Mulmul',
-    colour: 'Deep Indigo Crackle',
-    availableColours: ['Deep Indigo', 'Terracotta Red', 'Forest Green'],
-    sizes: ['1 Meter', '2.5 Meters', '5 Meters Bulk Length'],
-    stock: 55,
-    description: 'Ultra-soft Kolkata hand-wax batik mulmul cotton fabric sold per meter. Perfect for custom kurtis, dupattas, shirts, or home soft furnishings.',
-    details: {
-      fabric: '100s Count Premium Cotton Mulmul',
-      technique: 'Hand Molten Wax Resist Batik Crackle',
-      colour: 'Organic Cold Indigo Dip',
-      washCare: 'Cold water wash separately for first two washes.',
-      productionInfo: 'Wax cracked by hand before cold dyeing in Kolkata.',
-      origin: 'Kolkata, West Bengal, India'
-    },
-    craftStory: 'The distinctive vein-like crackle texture is created when hot wax cools and is gently fractured by hand before dipping into organic dye vats.',
-    featured: true,
-    handcrafted: true,
-    createdAt: '2026-01-15'
   },
   {
     id: 'bahari-004',
@@ -347,7 +316,7 @@ export const INSTAGRAM_POSTS = [
 export const FAQS = [
   {
     question: 'Are all your products 100% handcrafted?',
-    answer: 'Yes! Every item at Woven With Dream by Karuna is produced by hand using traditional block printing, freehand brush painting, hand-wax batik, or natural dyeing methods in our Nagerbazar, Kolkata studio.'
+    answer: 'Yes! Every item at Karuna Woven with Dream is produced by hand using traditional block printing, freehand brush painting, hand-wax batik, or natural dyeing methods in our Nagerbazar, Kolkata studio.'
   },
   {
     question: 'Do you accept job work on customer-supplied fabrics?',

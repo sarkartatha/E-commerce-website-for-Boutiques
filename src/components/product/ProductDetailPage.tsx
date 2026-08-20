@@ -48,7 +48,7 @@ export const ProductDetailPage: React.FC = () => {
     navigateTo('checkout');
   };
 
-  const productWhatsAppMsg = `Hi Bahari, I'm interested in ${product.name} (Price: ₹${product.salePrice || product.price}). Could you please share more details or photos?`;
+  const productWhatsAppMsg = `Hi! I'm interested in ${product.name} (Price: ₹${product.salePrice || product.price}). Could you please share more details or photos?`;
 
   return (
     <div className="bg-[#FAF6F0] min-h-screen py-10 px-4 sm:px-6 lg:px-8 text-[#1F1C1B]">
@@ -338,7 +338,7 @@ export const ProductDetailPage: React.FC = () => {
                 This piece carries the authentic character of hand block printing and hand painting. Slight micro-variations in dye shade, block impression alignment, or brush thickness are not imperfections or defects — they are proof of human handcraft.
               </p>
               <p>
-                Unlike mass-produced synthetic machine prints, no two Bahari garments are ever identical. You hold a piece of authentic wearable textile art created with patience and character.
+                Unlike mass-produced synthetic machine prints, no two Karuna Woven with Dream garments are ever identical. You hold a piece of authentic wearable textile art created with patience and character.
               </p>
             </div>
           )}

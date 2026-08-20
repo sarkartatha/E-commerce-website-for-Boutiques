@@ -72,10 +72,16 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [isCartOpen, setIsCartOpen] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  const [products, setProducts] = useState<Product[]>(() => getStored('bahari_products', INITIAL_PRODUCTS));
+  const [products, setProducts] = useState<Product[]>(() => {
+    const stored = getStored<Product[]>('bahari_products', INITIAL_PRODUCTS);
+    return stored.filter(p => p.id !== 'bahari-003' && p.slug !== 'hand-wax-batik-cotton-mulmul-fabric');
+  });
   const [settings, setSettings] = useState<StoreSettings>(() => {
     const stored = getStored<StoreSettings>('bahari_settings', INITIAL_SETTINGS);
     let updated = { ...stored };
+    if (!updated.brandName || updated.brandName === 'Woven With Dream') {
+      updated.brandName = INITIAL_SETTINGS.brandName;
+    }
     if (!updated.address || updated.address.includes('Vivekananda') || updated.address.includes('Mukundapur') || updated.address.includes('700099')) {
       updated.address = INITIAL_SETTINGS.address;
     }
@@ -220,7 +226,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   // WhatsApp Link Generator Helper
   const getWhatsAppLink = (customText?: string) => {
-    const defaultMsg = `Hi Bahari Block & Hand Painting Unit! I'm interested in your handcrafted textiles. Could you please share more details?`;
+    const defaultMsg = `Hi! I'm interested in your handcrafted textiles.`;
     const text = encodeURIComponent(customText || defaultMsg);
     const cleanNumber = settings.whatsappNumber.replace(/[^0-9]/g, '');
     return `https://wa.me/${cleanNumber}?text=${text}`;

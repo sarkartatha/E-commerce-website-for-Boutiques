@@ -15,20 +15,17 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full border border-[#C89B54] overflow-hidden bg-white shadow-md shrink-0">
-                <img src={settings.avatarUrl || '/profile_picture.jpg'} alt="Woven With Dream by Karuna" className="w-full h-full object-cover" />
+                <img src={settings.avatarUrl || '/profile_picture.jpg'} alt="Karuna Woven with Dream" className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="font-serif text-xl font-bold text-white tracking-wide">
-                  Woven With Dream
+                  Karuna Woven with Dream
                 </h3>
-                <p className="text-xs text-[#C89B54] font-medium tracking-wider uppercase">
-                  by Karuna
-                </p>
               </div>
             </div>
 
             <p className="text-xs text-[#B5A899] leading-relaxed pr-4">
-              {settings.bio || "✨Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna."}
+              {settings.bio || "✨Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Karuna Woven with Dream."}
             </p>
 
             <div className="space-y-2 text-xs text-[#D5C9B8]">
@@ -178,7 +175,7 @@ export const Footer: React.FC = () => {
         {/* Footer Bottom Copyright & Tagline */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#8A7E72]">
           <div className="flex items-center gap-2">
-            <span>© {new Date().getFullYear()} Woven With Dream by Karuna. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} Karuna Woven with Dream. All rights reserved.</span>
           </div>
           <div className="flex items-center gap-1">
             <span>Made with patience & character in Kolkata</span>

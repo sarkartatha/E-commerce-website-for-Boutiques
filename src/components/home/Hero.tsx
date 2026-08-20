@@ -11,7 +11,7 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0 opacity-40 mix-blend-luminosity transform scale-105 transition-transform duration-1000">
         <img
           src={settings.heroImage}
-          alt="Woven With Dream by Karuna Kolkata Saree Craft"
+          alt="Karuna Woven with Dream Kolkata Saree Craft"
           className="w-full h-full object-cover object-center"
         />
       </div>
@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
         {/* Established Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#8E2A2A]/80 border border-[#C89B54]/40 text-amber-100 text-xs font-semibold uppercase tracking-widest backdrop-blur-md shadow-lg">
           <Sparkles className="w-3.5 h-3.5 text-[#C89B54]" />
-          <span>Woven With Dream by Karuna • Kolkata</span>
+          <span>Karuna Woven with Dream • Kolkata</span>
         </div>
 
         {/* Main Headline */}
