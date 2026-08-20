@@ -238,7 +238,7 @@ export const WholesalePage: React.FC = () => {
                 Direct B2B Desk
               </h3>
               <p className="text-xs text-[#E6DDD0] leading-relaxed">
-                Need immediate bulk pricing or wish to visit our Mukundapur, Kolkata workshop? Connect directly with our wholesale manager.
+                Need immediate bulk pricing or wish to visit our Nagerbazar, Kolkata workshop? Connect directly with our wholesale manager.
               </p>
 
               <a

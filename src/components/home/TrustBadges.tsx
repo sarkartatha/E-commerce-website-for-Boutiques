@@ -26,7 +26,7 @@ export const TrustBadges: React.FC = () => {
     {
       icon: MapPin,
       title: 'Kolkata Workshop',
-      description: 'Mukundapur unit open for site visits & custom orders.'
+      description: 'Nagerbazar unit open for site visits & custom orders.'
     }
   ];
 

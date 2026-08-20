@@ -57,7 +57,7 @@ export const AdminPanel: React.FC = () => {
       colour: 'Crimson & Cream',
       sizes: 'S, M, L, XL',
       stock: 15,
-      description: 'Handcrafted block printed ethnic piece made in Mukundapur, Kolkata.',
+      description: 'Handcrafted block printed ethnic piece made in Nagerbazar, Kolkata.',
       image: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=800',
       featured: false,
       bestSeller: false,
@@ -129,7 +129,7 @@ export const AdminPanel: React.FC = () => {
           technique: productForm.craft,
           colour: productForm.colour,
           washCare: 'Gentle Hand Wash',
-          productionInfo: 'Handmade in Mukundapur, Kolkata',
+          productionInfo: 'Handmade in Nagerbazar, Kolkata',
           origin: 'Kolkata, India'
         },
         craftStory: 'Traditional artisan handcraft piece.',

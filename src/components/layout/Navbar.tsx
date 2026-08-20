@@ -249,7 +249,7 @@ export const Navbar: React.FC = () => {
                 <MessageCircle className="w-4 h-4" /> WhatsApp Inquiry
               </a>
               <div className="text-[11px] text-[#7A726A] text-center">
-                Beautifying Textiles Since 2007 • Mukundapur, Kolkata
+                Beautifying Textiles Since 2007 • Nagerbazar, Kolkata
               </div>
             </div>
           </div>

@@ -81,7 +81,7 @@ export const CustomWorkPage: React.FC = () => {
                 What We Offer For Job Work
               </h2>
               <p className="text-xs sm:text-sm text-[#5E564E] leading-relaxed">
-                Bring your raw unstitched cottons, silks, organzas, or tussars. Our master artisans in Mukundapur, Kolkata will transform your material into finished handcrafted textiles.
+                Bring your raw unstitched cottons, silks, organzas, or tussars. Our master artisans in Nagerbazar, Kolkata will transform your material into finished handcrafted textiles.
               </p>
             </div>
 

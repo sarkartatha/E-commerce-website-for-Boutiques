@@ -3,7 +3,7 @@
 > **"✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna."**  
 > Official Instagram Reference: [@woven_with_dream](https://instagram.com/woven_with_dream)
 
-A complete, production-ready, highly responsive e-commerce web application built for **Woven With Dream by Karuna**, an Indian textile and handloom saree brand based in Mukundapur, Kolkata.
+A complete, production-ready, highly responsive e-commerce web application built for **Woven With Dream by Karuna**, an Indian textile and handloom saree brand based in Nagerbazar, Kolkata.
 
 The platform transforms Karuna's authentic Indian heritage into a contemporary editorial storefront celebrating handcrafted sarees, wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, vegetable dyeing, texturing, ready-to-wear kurtis, custom job work, and wholesale orders.
 
@@ -37,7 +37,7 @@ The platform transforms Karuna's authentic Indian heritage into a contemporary e
 - **Our Story (`/our-story`)**:
   - Story detailing Karuna's journey with Woven With Dream.
 - **Contact Page (`/contact`)**:
-  - Address in Mukundapur, Kolkata, email (`karuna.wovenwithdream@gmail.com`), phone (`+91 98746 11531`), handle `@woven_with_dream`, interactive Google Maps location.
+  - Address: `37A Jessore Road, 2nd Floor, Nagerbazar Bus Stand (Opposite Petrol Pump), Kolkata – 700074`, email (`karuna.wovenwithdream@gmail.com`), phone (`+91 62915 25876`), handle `@woven_with_dream`, interactive Google Maps location.
 - **Cart & Checkout (`/checkout`)**:
   - Slide-out cart drawer with free shipping progress bar (Threshold: ₹2,999).
 
