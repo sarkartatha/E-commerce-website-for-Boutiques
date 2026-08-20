@@ -25,7 +25,7 @@ export const CRAFT_CATEGORIES: CraftCategoryInfo[] = [
     name: 'Block Printing',
     tagline: 'Stamped with Character',
     description: 'Traditional wood-block motifs carefully carved and hand-stamped onto pure cotton and silk.',
-    image: 'https://images.unsplash.com/photo-1606744888344-49423b812d02?auto=format&fit=crop&q=80&w=800'
+    image: '/hand_block_carving.jpg'
   },
   {
     id: 'craft-hand-paint',
@@ -240,7 +240,7 @@ export const CRAFT_PROCESS_STEPS = [
     step: '02',
     title: 'Hand Block Carving & Design',
     description: 'Traditional Teak wood blocks are hand-carved with Bengali floral, geometric, and classical motifs by veteran master craftsmen.',
-    image: 'https://images.unsplash.com/photo-1606744888344-49423b812d02?auto=format&fit=crop&q=80&w=600'
+    image: '/hand_block_carving.jpg'
   },
   {
     step: '03',
