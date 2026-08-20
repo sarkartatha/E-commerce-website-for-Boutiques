@@ -5,11 +5,11 @@ export const INITIAL_SETTINGS: StoreSettings = {
   ownerName: 'Karuna',
   tagline: 'Experience the timeless elegance of the saree',
   sinceYear: '2007',
-  phone: '+91 98746 11531', // Editable via Admin Panel
+  phone: '+91 62915 25876', // Editable via Admin Panel
   email: 'karuna.wovenwithdream@gmail.com',
-  whatsappNumber: '919874611531', // Configurable via Admin Panel
+  whatsappNumber: '916291525876', // Configurable via Admin Panel
   instagramHandle: 'woven_with_dream',
-  address: '16A Vivekananda Park, 2nd Dhal Road, Ajoy Nagar, Mukundapur, Kolkata, West Bengal 700099',
+  address: '37A, Jessore Road, Opposite Nagerbazar, Kolkata - 700028',
   bio: '✨Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna.',
   avatarUrl: '/profile_picture.jpg',
   businessHours: 'Monday - Saturday: 10:00 AM - 7:30 PM (Sunday Closed)',
@@ -347,7 +347,7 @@ export const INSTAGRAM_POSTS = [
 export const FAQS = [
   {
     question: 'Are all your products 100% handcrafted?',
-    answer: 'Yes! Every item at Woven With Dream by Karuna is produced by hand using traditional block printing, freehand brush painting, hand-wax batik, or natural dyeing methods in our Mukundapur, Kolkata workshop.'
+    answer: 'Yes! Every item at Woven With Dream by Karuna is produced by hand using traditional block printing, freehand brush painting, hand-wax batik, or natural dyeing methods in our Nagerbazar, Kolkata studio.'
   },
   {
     question: 'Do you accept job work on customer-supplied fabrics?',
@@ -355,7 +355,7 @@ export const FAQS = [
   },
   {
     question: 'How do I place a wholesale or bulk order?',
-    answer: 'You can fill out our Wholesale Enquiry form on the website or message us directly on WhatsApp (+91 98746 11531). We provide competitive tier pricing for boutique owners, fashion labels, and exporters.'
+    answer: 'You can fill out our Wholesale Enquiry form on the website or message us directly on WhatsApp (+91 62915 25876). We provide competitive tier pricing for boutique owners, fashion labels, and exporters.'
   },
   {
     question: 'Why do hand block prints have minor color or impression variations?',

@@ -87,8 +87,8 @@ npm run build
 ## 📍 Contact & Location
 
 **Woven With Dream by Karuna**  
-16A Vivekananda Park, 2nd Dhal Road, Ajoy Nagar, Mukundapur, Kolkata, West Bengal 700099  
-Phone: +91 98746 11531  
+37A, Jessore Road, Opposite Nagerbazar, Kolkata - 700028  
+Phone / WhatsApp: +91 62915 25876  
 Email: karuna.wovenwithdream@gmail.com  
 Instagram: [@woven_with_dream](https://instagram.com/woven_with_dream)
 

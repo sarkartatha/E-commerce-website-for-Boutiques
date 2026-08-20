@@ -212,7 +212,7 @@ export const ContactPage: React.FC = () => {
               </div>
 
               <div className="p-4 bg-[#FAF6F0] rounded-xl text-xs space-y-2 border border-[#E6DDD0]">
-                <strong className="block text-[#8E2A2A]">Woven With Dream Studio, Mukundapur</strong>
+                <strong className="block text-[#8E2A2A]">Woven With Dream Studio, Nagerbazar</strong>
                 <p className="text-[#6E645A]">{settings.address}</p>
                 <a
                   href={getWhatsAppLink("Hi Karuna, I would like directions to visit your Kolkata studio.")}

@@ -20,7 +20,7 @@ export const BrandIntro: React.FC = () => {
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 text-white">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#C89B54]">
-                  Mukundapur Workshop, Kolkata
+                  Nagerbazar Studio, Kolkata
                 </span>
                 <p className="font-serif text-lg font-semibold mt-0.5">
                   "Every block stamp carries human rhythm, patience, and character."
@@ -50,7 +50,7 @@ export const BrandIntro: React.FC = () => {
             </div>
 
             <p className="text-sm sm:text-base text-[#5E564E] leading-relaxed">
-              ✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with <strong>Woven With Dream by Karuna</strong>. Based in Mukundapur, Kolkata, we bring together century-old artisan techniques — wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, vegetable dyeing, and texture treatments — into wearable pieces of living art.
+              ✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with <strong>Woven With Dream by Karuna</strong>. Based in Nagerbazar, Kolkata, we bring together century-old artisan techniques — wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, vegetable dyeing, and texture treatments — into wearable pieces of living art.
             </p>
 
             <p className="text-sm sm:text-base text-[#5E564E] leading-relaxed">
