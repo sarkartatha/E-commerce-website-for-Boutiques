@@ -279,10 +279,10 @@ export const INSTAGRAM_POSTS = [
   },
   {
     id: 'ig-3',
-    image: 'https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&q=80&w=600',
-    caption: 'Hand wax batik crackle textures fresh out of the indigo dye bath! 💙',
+    image: 'https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&q=80&w=600',
+    caption: 'Pure natural handloom weaving & intricate border artistry in Kolkata. ✨',
     likes: 310,
-    type: 'Hand Wax'
+    type: 'Handloom Saree'
   },
   {
     id: 'ig-4',
