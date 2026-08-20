@@ -202,7 +202,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 2750,
     salePrice: 2490,
     images: [
-      'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=1000',
+      '/vegetable_dyed_kurti.jpg',
       'https://images.unsplash.com/photo-1606744888344-49423b812d02?auto=format&fit=crop&q=80&w=1000'
     ],
     category: 'Kurtis',

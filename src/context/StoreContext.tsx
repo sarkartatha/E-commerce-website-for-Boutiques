@@ -82,6 +82,12 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
           images: ['/ajrakh_suit_set.jpg', ...(p.images.slice(1))]
         };
       }
+      if (p.id === 'bahari-006' || p.slug === 'vegetable-dyed-kantha-block-print-kurti') {
+        return {
+          ...p,
+          images: ['/vegetable_dyed_kurti.jpg', ...(p.images.slice(1))]
+        };
+      }
       return p;
     });
   });
