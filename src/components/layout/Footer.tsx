@@ -122,11 +122,7 @@ export const Footer: React.FC = () => {
                   Hand Painting
                 </button>
               </li>
-              <li>
-                <button onClick={() => navigateTo('shop')} className="hover:text-[#C89B54] transition-colors">
-                  Hand Wax Batik
-                </button>
-              </li>
+
               <li>
                 <button onClick={() => navigateTo('shop')} className="hover:text-[#C89B54] transition-colors">
                   Kalamkari Work

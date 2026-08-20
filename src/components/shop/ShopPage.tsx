@@ -25,7 +25,7 @@ export const ShopPage: React.FC = () => {
 
   // Extract unique options from products
   const categories = useMemo(() => ['All', 'Kurtis', 'Sarees', 'Fabrics', 'Dupattas', 'Ready-to-Wear'], []);
-  const crafts = useMemo(() => ['All', 'Block Printing', 'Hand Painting', 'Hand Wax', 'Kalamkari', 'Dyeing & Texturing'], []);
+  const crafts = useMemo(() => ['All', 'Block Printing', 'Hand Painting', 'Kalamkari', 'Dyeing & Texturing'], []);
 
   // Filter & Sort Logic
   const filteredProducts = useMemo(() => {

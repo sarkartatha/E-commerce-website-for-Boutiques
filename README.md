@@ -22,7 +22,7 @@ The platform transforms Karuna's authentic Indian heritage into a contemporary e
 ### 🛒 E-Commerce & Customer Storefront
 - **Editorial Hero**: Headline *"Where Every Weave Tells a Dream."* with quick CTA navigation.
 - **Brand Heritage Intro**: Visual introduction to Karuna's Woven With Dream collection.
-- **Shop By Craft**: 6 core craft categories (*Block Printing, Hand Painting, Hand Wax Batik, Kalamkari, Dyeing & Texturing, Custom / Job Work*).
+- **Shop By Craft**: 5 core craft categories (*Block Printing, Hand Painting, Kalamkari, Dyeing & Texturing, Custom / Job Work*).
 - **Interactive Shop (`/shop`)**:
   - Filter by Category, Craft Technique, and Price Range.
   - Live keyword search bar and multi-criteria sorting (*Featured, Newest, Price Low-High, Price High-Low, Bestselling*).

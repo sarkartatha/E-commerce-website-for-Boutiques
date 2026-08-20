@@ -35,13 +35,6 @@ export const CRAFT_CATEGORIES: CraftCategoryInfo[] = [
     image: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=800'
   },
   {
-    id: 'craft-hand-wax',
-    name: 'Hand Wax',
-    tagline: 'Classic Batik Technique',
-    description: 'Hot molten wax resist patterns created by hand, producing organic crackle textures and rich hues.',
-    image: 'https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&q=80&w=800'
-  },
-  {
     id: 'craft-kalamkari',
     name: 'Kalamkari',
     tagline: 'Pen of Tradition',
