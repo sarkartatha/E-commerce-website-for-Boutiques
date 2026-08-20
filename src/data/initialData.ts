@@ -9,7 +9,7 @@ export const INITIAL_SETTINGS: StoreSettings = {
   email: 'karuna.wovenwithdream@gmail.com',
   whatsappNumber: '916291525876', // Configurable via Admin Panel
   instagramHandle: 'woven_with_dream',
-  address: '37A, Jessore Road, Opposite Nagerbazar, Kolkata - 700028',
+  address: '37A Jessore Road, 2nd Floor, Nagerbazar, Opposite Petrol Pump, Kolkata - 700074',
   bio: '✨Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna.',
   avatarUrl: '/profile_picture.jpg',
   businessHours: 'Monday - Saturday: 10:00 AM - 7:30 PM (Sunday Closed)',

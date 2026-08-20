@@ -87,7 +87,7 @@ npm run build
 ## 📍 Contact & Location
 
 **Woven With Dream by Karuna**  
-37A, Jessore Road, Opposite Nagerbazar, Kolkata - 700028  
+37A Jessore Road, 2nd Floor, Nagerbazar, Opposite Petrol Pump, Kolkata - 700074  
 Phone / WhatsApp: +91 62915 25876  
 Email: karuna.wovenwithdream@gmail.com  
 Instagram: [@woven_with_dream](https://instagram.com/woven_with_dream)
