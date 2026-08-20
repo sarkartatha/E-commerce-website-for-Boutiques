@@ -14,8 +14,8 @@ export const BrandIntro: React.FC = () => {
           <div className="lg:col-span-6 relative">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-white">
               <img
-                src="https://images.unsplash.com/photo-1606744888344-49423b812d02?auto=format&fit=crop&q=80&w=1000"
-                alt="Karuna Woven with Dream Artisan Block Printing on Fabric in Kolkata"
+                src="/nagerbazar_studio_saree.jpg"
+                alt="Karuna Woven with Dream Artisan Block Printing Saree at Nagerbazar Studio Kolkata"
                 className="w-full h-[420px] object-cover object-center transform hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 text-white">
