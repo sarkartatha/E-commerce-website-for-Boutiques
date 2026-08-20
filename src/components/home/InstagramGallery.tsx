@@ -30,7 +30,7 @@ export const InstagramGallery: React.FC = () => {
           {INSTAGRAM_POSTS.map((post) => (
             <a
               key={post.id}
-              href={`https://instagram.com/${settings.instagramHandle}`}
+              href="https://www.instagram.com/woven_with_dream/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-square rounded-xl overflow-hidden bg-gray-200 border border-[#E6DDD0] shadow-sm"
@@ -61,7 +61,7 @@ export const InstagramGallery: React.FC = () => {
         {/* Follow Button CTA */}
         <div className="mt-10 text-center">
           <a
-            href={`https://instagram.com/${settings.instagramHandle}`}
+            href="https://www.instagram.com/woven_with_dream/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#8E2A2A] hover:bg-[#722020] text-white px-8 py-3.5 rounded-xl font-bold text-xs uppercase tracking-widest shadow-md transition-all"

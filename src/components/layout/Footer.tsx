@@ -52,7 +52,7 @@ export const Footer: React.FC = () => {
 
             <div className="flex items-center gap-3 pt-2">
               <a
-                href={`https://instagram.com/${settings.instagramHandle}`}
+                href="https://www.instagram.com/woven_with_dream/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#383330] hover:bg-[#8E2A2A] text-white flex items-center justify-center transition-colors shadow-sm"
