@@ -146,7 +146,7 @@ export const CheckoutPage: React.FC = () => {
                   <input
                     type="tel"
                     required
-                    placeholder="e.g. 9874611531"
+                    placeholder="e.g. 6291525876"
                     value={customer.phone}
                     onChange={(e) => setCustomer({ ...customer, phone: e.target.value })}
                     className="w-full px-4 py-2.5 bg-[#FAF6F0] border border-[#D5C9B8] rounded-xl text-xs"
