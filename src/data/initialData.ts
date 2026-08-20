@@ -258,7 +258,7 @@ export const CRAFT_PROCESS_STEPS = [
 export const INSTAGRAM_POSTS = [
   {
     id: 'ig-1',
-    image: 'https://images.unsplash.com/photo-1606744888344-49423b812d02?auto=format&fit=crop&q=80&w=600',
+    image: '/nagerbazar_studio_saree.jpg',
     caption: 'Every block holds a story. Crafting timeless Tussar block prints in Nagerbazar, Kolkata. 🎨✨',
     likes: 248,
     type: 'Block Print'
