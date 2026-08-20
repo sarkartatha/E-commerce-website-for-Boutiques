@@ -53,7 +53,7 @@ export const OurStoryPage: React.FC = () => {
               The Heart of Woven With Dream
             </h2>
             <p>
-              Located at 37A Jessore Road, 2nd Floor, Nagerbazar, Opposite Petrol Pump, Kolkata - 700074, <strong>Woven With Dream</strong> was founded by Karuna out of a deep reverence for Indian saree heritage. In an era of mass manufacturing, Karuna chose the slower, more soulful path of hand block carving, freehand Kalamkari painting, and organic dyeing.
+              Located at 37A Jessore Road, 2nd Floor, Nagerbazar Bus Stand (Opposite Petrol Pump), Kolkata – 700074, <strong>Woven With Dream</strong> was founded by Karuna out of a deep reverence for Indian saree heritage. In an era of mass manufacturing, Karuna chose the slower, more soulful path of hand block carving, freehand Kalamkari painting, and organic dyeing.
             </p>
             <p>
               Our studio is a living atelier where veteran master block carvers, young painters, and dyeing specialists collaborate daily. When you wear a saree from Woven With Dream by Karuna, you wear days of focused human artistry and feminine charm.

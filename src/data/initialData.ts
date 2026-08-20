@@ -9,7 +9,7 @@ export const INITIAL_SETTINGS: StoreSettings = {
   email: 'karuna.wovenwithdream@gmail.com',
   whatsappNumber: '916291525876', // Configurable via Admin Panel
   instagramHandle: 'woven_with_dream',
-  address: '37A Jessore Road, 2nd Floor, Nagerbazar, Opposite Petrol Pump, Kolkata - 700074',
+  address: '37A Jessore Road, 2nd Floor, Nagerbazar Bus Stand (Opposite Petrol Pump), Kolkata – 700074',
   bio: '✨Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna.',
   avatarUrl: '/profile_picture.jpg',
   businessHours: 'Monday - Saturday: 10:00 AM - 7:30 PM (Sunday Closed)',
@@ -89,7 +89,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       technique: 'Traditional Hand Wood-Block Printing',
       colour: 'Natural Indigo and Terracotta Mineral Dyes',
       washCare: 'Dry Clean Only. Avoid direct sunlight drying.',
-      productionInfo: 'Hand-stamped in Mukundapur, Kolkata workshop.',
+      productionInfo: 'Hand-stamped in Nagerbazar, Kolkata studio.',
       origin: 'Kolkata, West Bengal, India'
     },
     craftStory: 'This piece carries the authentic character of hand block printing. Slight variations in colour density and block impressions are natural hallmarks of artisan craftsmanship, making every saree one-of-a-kind.',
