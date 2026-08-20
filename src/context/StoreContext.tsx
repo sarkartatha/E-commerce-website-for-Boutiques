@@ -78,7 +78,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   });
   const [settings, setSettings] = useState<StoreSettings>(() => {
     const stored = getStored<StoreSettings>('bahari_settings', INITIAL_SETTINGS);
-    let updated = { ...stored };
+    let updated = { ...stored, instagramHandle: 'woven_with_dream' };
     if (!updated.brandName || updated.brandName === 'Woven With Dream') {
       updated.brandName = INITIAL_SETTINGS.brandName;
     }

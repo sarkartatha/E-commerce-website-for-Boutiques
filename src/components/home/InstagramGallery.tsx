@@ -1,11 +1,9 @@
 import React from 'react';
-import { useStore } from '../../context/StoreContext';
 import { INSTAGRAM_POSTS } from '../../data/initialData';
 import { Heart, ExternalLink } from 'lucide-react';
 import { InstagramIcon } from '../common/InstagramIcon';
 
 export const InstagramGallery: React.FC = () => {
-  const { settings } = useStore();
 
   return (
     <section className="py-20 bg-[#F5EFE6] text-[#1F1C1B] border-b border-[#E6DDD0]">
@@ -15,13 +13,13 @@ export const InstagramGallery: React.FC = () => {
         <div className="text-center max-w-2xl mx-auto space-y-3 mb-12">
           <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#8E2A2A]">
             <InstagramIcon className="w-4 h-4 text-[#8E2A2A]" />
-            <span>@{settings.instagramHandle}</span>
+            <span>@woven_with_dream</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F1C1B]">
             From Karuna's Studio to Your Wardrobe
           </h2>
           <p className="text-xs sm:text-sm text-[#6E645A]">
-            ✨ Experience the timeless elegance of the saree and handcrafted textiles on Instagram @{settings.instagramHandle}.
+            ✨ Experience the timeless elegance of the saree and handcrafted textiles on Instagram @woven_with_dream.
           </p>
         </div>
 
@@ -67,7 +65,7 @@ export const InstagramGallery: React.FC = () => {
             className="inline-flex items-center gap-2 bg-[#8E2A2A] hover:bg-[#722020] text-white px-8 py-3.5 rounded-xl font-bold text-xs uppercase tracking-widest shadow-md transition-all"
           >
             <InstagramIcon className="w-4 h-4" />
-            <span>Follow @{settings.instagramHandle}</span>
+            <span>Follow @woven_with_dream</span>
           </a>
         </div>
       </div>
