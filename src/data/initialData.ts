@@ -256,12 +256,6 @@ export const CRAFT_PROCESS_STEPS = [
   },
   {
     step: '05',
-    title: 'Hand Wax Batik & Dye Baths',
-    description: 'For wax batik and texturing, molten paraffin and beeswax are applied, cooled, fractured, and cold-dyed for signature organic crackle.',
-    image: 'https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&q=80&w=600'
-  },
-  {
-    step: '06',
     title: 'Sun Curing & Final Washing',
     description: 'Finished textiles are dried under open sunlight in Kolkata, setting the colors naturally before final quality inspection.',
     image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=600'

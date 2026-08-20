@@ -20,7 +20,7 @@ export const CraftProcess: React.FC = () => {
             The Craft Process
           </h2>
           <p className="text-xs sm:text-sm text-[#B5A899] leading-relaxed">
-            From raw natural fabric to finished wearable art — every piece passes through six painstaking handcraft stages in our Kolkata workshop.
+            From raw natural fabric to finished wearable art — every piece passes through five painstaking handcraft stages in our Kolkata workshop.
           </p>
         </div>
 
