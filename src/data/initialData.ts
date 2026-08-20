@@ -293,7 +293,7 @@ export const INSTAGRAM_POSTS = [
   },
   {
     id: 'ig-6',
-    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&q=80&w=600',
+    image: '/vegetable_dyed_kurti.jpg',
     caption: 'Vegetable dye texturing on pure cotton mulmul length. Workshop vibes in Kolkata.',
     likes: 376,
     type: 'Texturing Work'
