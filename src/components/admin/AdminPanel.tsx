@@ -162,7 +162,7 @@ export const AdminPanel: React.FC = () => {
               <span>Owner Dashboard</span>
             </div>
             <h1 className="font-serif text-3xl font-bold tracking-tight">
-              Bahari Admin & Management Panel
+              Woven With Dream Admin Panel (Karuna)
             </h1>
           </div>
 
@@ -416,15 +416,28 @@ export const AdminPanel: React.FC = () => {
                 </div>
               </div>
 
-              <div>
-                <label className="block font-bold text-[#1F1C1B] mb-1">Instagram Handle *</label>
-                <input
-                  type="text"
-                  required
-                  value={settingsForm.instagramHandle}
-                  onChange={(e) => setSettingsForm({ ...settingsForm, instagramHandle: e.target.value })}
-                  className="w-full px-4 py-2.5 bg-[#FAF6F0] border border-[#D5C9B8] rounded-xl text-xs"
-                />
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block font-bold text-[#1F1C1B] mb-1">Instagram Handle *</label>
+                  <input
+                    type="text"
+                    required
+                    value={settingsForm.instagramHandle}
+                    onChange={(e) => setSettingsForm({ ...settingsForm, instagramHandle: e.target.value })}
+                    className="w-full px-4 py-2.5 bg-[#FAF6F0] border border-[#D5C9B8] rounded-xl text-xs"
+                  />
+                </div>
+
+                <div>
+                  <label className="block font-bold text-[#1F1C1B] mb-1">Contact Email *</label>
+                  <input
+                    type="email"
+                    required
+                    value={settingsForm.email || ''}
+                    onChange={(e) => setSettingsForm({ ...settingsForm, email: e.target.value })}
+                    className="w-full px-4 py-2.5 bg-[#FAF6F0] border border-[#D5C9B8] rounded-xl text-xs"
+                  />
+                </div>
               </div>
 
               <div>

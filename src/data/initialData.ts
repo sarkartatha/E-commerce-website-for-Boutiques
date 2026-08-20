@@ -1,17 +1,21 @@
 import type { Product, CraftCategoryInfo, StoreSettings } from '../types';
 
 export const INITIAL_SETTINGS: StoreSettings = {
-  brandName: 'Bahari Block & Hand Painting Unit',
-  tagline: 'Beautifying Textiles Since 2007',
+  brandName: 'Woven With Dream',
+  ownerName: 'Karuna',
+  tagline: 'Experience the timeless elegance of the saree',
   sinceYear: '2007',
   phone: '+91 98746 11531', // Editable via Admin Panel
+  email: 'karuna.wovenwithdream@gmail.com',
   whatsappNumber: '919874611531', // Configurable via Admin Panel
-  instagramHandle: 'bahari_block_and_hand_painting',
+  instagramHandle: 'woven_with_dream',
   address: '16A Vivekananda Park, 2nd Dhal Road, Ajoy Nagar, Mukundapur, Kolkata, West Bengal 700099',
+  bio: '✨Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna.',
+  avatarUrl: '/profile_picture.jpg',
   businessHours: 'Monday - Saturday: 10:00 AM - 7:30 PM (Sunday Closed)',
-  announcementText: '✨ Authentic Kolkata Hand Block Prints & Hand Painting | Wholesale & Job Work Available',
-  heroHeading: 'Where Every Block Tells a Story.',
-  heroSubtext: 'Handcrafted textiles, block prints and artistic traditions, made with care in Kolkata since 2007.',
+  announcementText: '✨ Experience the timeless elegance of the saree with Woven With Dream by Karuna | Wholesale & Custom Orders Available',
+  heroHeading: 'Where Every Weave Tells a Dream.',
+  heroSubtext: '✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna.',
   heroImage: 'https://images.unsplash.com/photo-1606744888344-49423b812d02?auto=format&fit=crop&q=80&w=1600'
 };
 
@@ -343,7 +347,7 @@ export const INSTAGRAM_POSTS = [
 export const FAQS = [
   {
     question: 'Are all your products 100% handcrafted?',
-    answer: 'Yes! Every item at Bahari Block & Hand Painting Unit is produced by hand using traditional block printing, freehand brush painting, hand-wax batik, or natural dyeing methods in our Mukundapur, Kolkata workshop.'
+    answer: 'Yes! Every item at Woven With Dream by Karuna is produced by hand using traditional block printing, freehand brush painting, hand-wax batik, or natural dyeing methods in our Mukundapur, Kolkata workshop.'
   },
   {
     question: 'Do you accept job work on customer-supplied fabrics?',

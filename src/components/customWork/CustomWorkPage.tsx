@@ -129,7 +129,7 @@ export const CustomWorkPage: React.FC = () => {
                 Send fabric photos or design ideas directly to our master artisan on WhatsApp.
               </p>
               <a
-                href={getWhatsAppLink("Hi Bahari, I would like to inquire about custom job work printing on my fabric.")}
+                href={getWhatsAppLink("Hi Karuna, I would like to inquire about custom saree and fabric work for Woven With Dream.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white px-5 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider shadow-sm transition-colors"

@@ -242,7 +242,7 @@ export const WholesalePage: React.FC = () => {
               </p>
 
               <a
-                href={getWhatsAppLink("Hi Bahari, I am a business buyer inquiring about wholesale order pricing.")}
+                href={getWhatsAppLink("Hi Karuna, I am inquiring about wholesale saree order pricing for Woven With Dream.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-3 rounded-xl text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 shadow-md transition-colors"

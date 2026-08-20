@@ -106,12 +106,16 @@ export interface Enquiry {
 
 export interface StoreSettings {
   brandName: string;
+  ownerName?: string;
   tagline: string;
   sinceYear: string;
   phone: string;
+  email?: string;
   whatsappNumber: string;
   instagramHandle: string;
   address: string;
+  bio?: string;
+  avatarUrl?: string;
   businessHours: string;
   announcementText: string;
   heroHeading: string;

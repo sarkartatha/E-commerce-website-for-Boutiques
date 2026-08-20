@@ -8,23 +8,23 @@ export const OurStoryPage: React.FC = () => {
   const timelineEntries = [
     {
       year: '2007',
-      title: 'Bahari Begins in Kolkata',
-      description: 'Bahari Block & Hand Painting Unit is established in Mukundapur, Kolkata with a small team of passionate Bengal wood-block printing craftsmen and hand painters.'
+      title: 'Woven With Dream Founded in Kolkata',
+      description: 'Karuna established Woven With Dream in Mukundapur, Kolkata with a passion for preserving authentic Indian handloom sarees, block printing, and hand painting.'
     },
     {
       year: '2012',
       title: 'Expansion into Hand Wax Batik & Natural Dyes',
-      description: 'Introduced traditional hot-wax batik crackle techniques and vegetable dye texturing, combining ancestral methods with modern ethnic silhouettes.'
+      description: 'Introduced traditional hot-wax batik crackle techniques and vegetable dye texturing, combining ancestral methods with timeless saree silhouettes.'
     },
     {
       year: '2018',
       title: 'Custom Job Work & Boutique Wholesale Division',
-      description: 'Launched dedicated job work services for fashion labels, boutique owners, and retail clients providing custom printing on customer-supplied fabrics.'
+      description: 'Launched dedicated custom services for fashion labels, boutique owners, and retail clients providing custom printing on customer-supplied fabrics.'
     },
     {
       year: '2024 - Present',
-      title: 'Digital Storefront & Global Artisan Reach',
-      description: 'Expanding Kolkata’s handcraft heritage to textile lovers across India and internationally while upholding our founding pledge: "Every piece made with craft, patience and character."'
+      title: 'Digital Storefront & Global Saree Community',
+      description: 'Bringing Karuna’s handloom saree heritage to textile lovers across India and internationally while upholding our founding pledge: "Experience the timeless elegance of the saree."'
     }
   ];
 
@@ -36,13 +36,13 @@ export const OurStoryPage: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#8E2A2A] text-white text-xs font-bold uppercase tracking-widest border border-amber-200/30">
             <Sparkles className="w-3.5 h-3.5 text-[#C89B54]" />
-            <span>Kolkata Craft Heritage</span>
+            <span>Woven With Dream by Karuna</span>
           </div>
           <h1 className="font-serif text-4xl sm:text-6xl font-bold tracking-tight text-[#1F1C1B]">
-            Since 2007, We've Been Beautifying Textiles.
+            ✨ Experience the Timeless Elegance of the Saree.
           </h1>
           <p className="text-xs sm:text-base text-[#6E645A] leading-relaxed">
-            Every block stamp, brush stroke, and wax crackle tells the story of human rhythm, Bengal traditions, and patient craftsmanship.
+            A symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna.
           </p>
         </div>
 
@@ -50,13 +50,13 @@ export const OurStoryPage: React.FC = () => {
         <div className="bg-white rounded-3xl p-8 sm:p-12 border border-[#E6DDD0] shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-6 space-y-4 text-xs sm:text-sm text-[#5E564E] leading-relaxed">
             <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#1F1C1B]">
-              The Heart of Bahari
+              The Heart of Woven With Dream
             </h2>
             <p>
-              Located at 16A Vivekananda Park in Mukundapur, Kolkata, Bahari was born out of a deep reverence for West Bengal’s textile legacy. In an era dominated by rapid mass manufacturing, we chose the slower, more soulful path of hand block carving, freehand Kalamkari painting, and organic dyeing.
+              Located at 16A Vivekananda Park in Mukundapur, Kolkata, <strong>Woven With Dream</strong> was founded by Karuna out of a deep reverence for Indian saree heritage. In an era of mass manufacturing, Karuna chose the slower, more soulful path of hand block carving, freehand Kalamkari painting, and organic dyeing.
             </p>
             <p>
-              Our workshop is not a factory. It is a living atelier where veteran master block carvers, young painters, and dyeing specialists collaborate daily. When you wear a Bahari saree or kurti, you wear days of focused human artistry.
+              Our studio is a living atelier where veteran master block carvers, young painters, and dyeing specialists collaborate daily. When you wear a saree from Woven With Dream by Karuna, you wear days of focused human artistry and feminine charm.
             </p>
           </div>
 

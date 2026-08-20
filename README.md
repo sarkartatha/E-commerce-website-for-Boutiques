@@ -1,11 +1,11 @@
-# 🌸 Bahari Block & Hand Painting Unit — Premium E-Commerce Platform
+# 🌸 Woven With Dream by Karuna — Premium E-Commerce Platform
 
-> **"Beautifying Textiles Since 2007"** • Kolkata, West Bengal, India  
-> Official Instagram Reference: [@bahari_block_and_hand_painting](https://instagram.com/bahari_block_and_hand_painting)
+> **"✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna."**  
+> Official Instagram Reference: [@woven_with_dream](https://instagram.com/woven_with_dream)
 
-A complete, production-ready, highly responsive e-commerce web application built for **Bahari Block & Hand Painting Unit**, a traditional Indian textile and handcraft unit based in Mukundapur, Kolkata.
+A complete, production-ready, highly responsive e-commerce web application built for **Woven With Dream by Karuna**, an Indian textile and handloom saree brand based in Mukundapur, Kolkata.
 
-The platform transforms Bahari's authentic Indian heritage into a contemporary editorial storefront celebrating handcrafted wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, vegetable dyeing, texturing, ready-to-wear kurtis, sarees, custom job work, and wholesale orders.
+The platform transforms Karuna's authentic Indian heritage into a contemporary editorial storefront celebrating handcrafted sarees, wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, vegetable dyeing, texturing, ready-to-wear kurtis, custom job work, and wholesale orders.
 
 ---
 
@@ -13,44 +13,39 @@ The platform transforms Bahari's authentic Indian heritage into a contemporary e
 
 - **Traditional Color Palette**: Warm Ivory (`#FAF6F0`), Terracotta Crimson (`#8E2A2A`), Deep Charcoal (`#1F1C1B`), Warm Gold (`#C89B54`), Muted Olive (`#485C4B`).
 - **Typography**: `Cormorant Garamond` (Heritage Indian editorial serif) & `Plus Jakarta Sans` (Modern UI sans-serif).
-- **Brand Emblem**: Authentic Bengali & English emblem (`বাহারি Bahari`).
+- **Brand Avatar**: Official profile image (`/profile_picture.jpg`).
 
 ---
 
 ## ✨ Features
 
 ### 🛒 E-Commerce & Customer Storefront
-- **Editorial Hero**: Headline *"Where Every Block Tells a Story."* with quick CTA navigation.
-- **Brand Heritage Intro**: Visual introduction to Bahari's Kolkata workshop since 2007.
+- **Editorial Hero**: Headline *"Where Every Weave Tells a Dream."* with quick CTA navigation.
+- **Brand Heritage Intro**: Visual introduction to Karuna's Woven With Dream collection.
 - **Shop By Craft**: 6 core craft categories (*Block Printing, Hand Painting, Hand Wax Batik, Kalamkari, Dyeing & Texturing, Custom / Job Work*).
-- **Craft Process Timeline**: Behind-the-scenes 6-stage workshop flow (*Fabric → Block Carving → Dye Prep → Stamping → Wax Batik Bath → Sun Curing*).
 - **Interactive Shop (`/shop`)**:
-  - Filter by Category, Craft Technique, and Price Range slider.
+  - Filter by Category, Craft Technique, and Price Range.
   - Live keyword search bar and multi-criteria sorting (*Featured, Newest, Price Low-High, Price High-Low, Bestselling*).
-  - 4-column desktop / 2-column mobile responsive grid.
 - **Product Detail View**:
   - Image gallery with zoom preview.
   - Variant selection (Size, Colour, Fabric), pricing, and stock status.
   - Direct CTAs: *"Add to Cart"*, *"Buy Now"*, and *"Ask about this product on WhatsApp"* with pre-filled enquiry text.
-  - Tabs for Specifications, Craft Story, and *"Why Handmade Looks Different"* (explaining natural block print variations).
 - **Custom / Job Work Portal (`/custom-work`)**:
   - Lead generation form for customer-supplied fabrics with reference design image uploader.
-  - Direct WhatsApp consultation CTA.
 - **Wholesale B2B Portal (`/wholesale`)**:
   - Dedicated bulk order enquiry form for boutiques, fashion labels, and corporate clients.
 - **Our Story (`/our-story`)**:
-  - Timeline detailing Kolkata workshop milestones from 2007 to present.
+  - Story detailing Karuna's journey with Woven With Dream.
 - **Contact Page (`/contact`)**:
-  - Address in Mukundapur, Kolkata, interactive Google Maps location, and contact inquiry tabs.
+  - Address in Mukundapur, Kolkata, email (`karuna.wovenwithdream@gmail.com`), phone (`+91 98746 11531`), handle `@woven_with_dream`, interactive Google Maps location.
 - **Cart & Checkout (`/checkout`)**:
-  - Slide-out cart drawer with free shipping progress bar (Threshold: ₹2,999) and cross-sell suggestions.
-  - Checkout form with Indian PIN code lookup, payment gateway selector (UPI, Razorpay, COD), and printable order receipt modal.
+  - Slide-out cart drawer with free shipping progress bar (Threshold: ₹2,999).
 
 ### ⚙️ Admin Management Panel (`/admin`)
 - **Product Catalog Management**: Add, edit, delete products, toggle featured/bestseller badges, set stock and prices.
 - **Order Management**: Track incoming customer orders and update status (*Processing, Dispatched, Delivered, Cancelled*).
 - **Leads Manager**: Review incoming custom job work and wholesale inquiries.
-- **Store Configuration**: Edit WhatsApp phone number, display phone, Instagram handle, address, business hours, and top announcement text in real-time.
+- **Store Configuration**: Edit WhatsApp phone number, display phone, email, Instagram handle, address, business hours, and top announcement text in real-time.
 
 ---
 
@@ -58,7 +53,7 @@ The platform transforms Bahari's authentic Indian heritage into a contemporary e
 
 - **Core**: React 18, TypeScript, Vite
 - **Styling**: Tailwind CSS, CSS Custom Properties
-- **Icons**: Lucide React Icons & Custom SVG Emblem
+- **Icons**: Lucide React Icons & Profile Avatar
 - **State Management**: React Context API + LocalStorage state persistence
 
 ---
@@ -67,8 +62,8 @@ The platform transforms Bahari's authentic Indian heritage into a contemporary e
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/bahari-block-hand-painting.git
-cd bahari-block-hand-painting
+git clone https://github.com/sarkartatha/E-commerce-website-for-Boutiques.git
+cd E-commerce-website-for-Boutiques
 ```
 
 ### 2. Install Dependencies
@@ -89,11 +84,13 @@ npm run build
 
 ---
 
-## 📍 Business Location
+## 📍 Contact & Location
 
-**Bahari Block & Hand Painting Unit**  
+**Woven With Dream by Karuna**  
 16A Vivekananda Park, 2nd Dhal Road, Ajoy Nagar, Mukundapur, Kolkata, West Bengal 700099  
-Instagram: [@bahari_block_and_hand_painting](https://instagram.com/bahari_block_and_hand_painting)
+Phone: +91 98746 11531  
+Email: karuna.wovenwithdream@gmail.com  
+Instagram: [@woven_with_dream](https://instagram.com/woven_with_dream)
 
 ---
 

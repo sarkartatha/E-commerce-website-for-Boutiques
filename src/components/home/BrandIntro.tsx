@@ -42,7 +42,7 @@ export const BrandIntro: React.FC = () => {
           <div className="lg:col-span-6 space-y-6">
             <div className="space-y-2">
               <span className="text-xs font-bold text-[#8E2A2A] uppercase tracking-widest block">
-                The Heritage of Bahari
+                The Heritage of Woven With Dream
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F1C1B] leading-tight">
                 Crafted by Hand.<br />Inspired by Tradition.
@@ -50,11 +50,11 @@ export const BrandIntro: React.FC = () => {
             </div>
 
             <p className="text-sm sm:text-base text-[#5E564E] leading-relaxed">
-              Based in Mukundapur, Kolkata, <strong>Bahari Block & Hand Painting Unit</strong> has been beautifying Indian textiles since 2007. We bring together century-old artisan techniques — wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, vegetable dyeing, and texture treatments — into wearable pieces of living art.
+              ✨ Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with <strong>Woven With Dream by Karuna</strong>. Based in Mukundapur, Kolkata, we bring together century-old artisan techniques — wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, vegetable dyeing, and texture treatments — into wearable pieces of living art.
             </p>
 
             <p className="text-sm sm:text-base text-[#5E564E] leading-relaxed">
-              Whether it’s a pure Tussar silk saree, a soft handloom kurti, or custom job work on your own fabric, we honour the human element behind every thread.
+              Whether it’s a pure Tussar silk saree, a soft handloom kurti, or custom job work on your own fabric, Karuna and our artisans honour the human element behind every thread.
             </p>
 
             {/* Key Service Highlights */}

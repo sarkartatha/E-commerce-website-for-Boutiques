@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStore } from '../../context/StoreContext';
-import { MapPin, Phone, Clock, MessageCircle, Heart } from 'lucide-react';
+import { MapPin, Phone, Clock, MessageCircle, Heart, Mail } from 'lucide-react';
 import { InstagramIcon } from '../common/InstagramIcon';
 
 export const Footer: React.FC = () => {
@@ -14,21 +14,21 @@ export const Footer: React.FC = () => {
           {/* Brand Info Column */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full border border-[#C89B54] bg-[#8E2A2A] text-white flex items-center justify-center font-serif text-sm font-bold shadow-md">
-                ব
+              <div className="w-10 h-10 rounded-full border border-[#C89B54] overflow-hidden bg-white shadow-md shrink-0">
+                <img src={settings.avatarUrl || '/profile_picture.jpg'} alt="Woven With Dream by Karuna" className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="font-serif text-xl font-bold text-white tracking-wide">
-                  Bahari Block & Hand Painting Unit
+                  Woven With Dream
                 </h3>
                 <p className="text-xs text-[#C89B54] font-medium tracking-wider uppercase">
-                  {settings.tagline}
+                  by Karuna
                 </p>
               </div>
             </div>
 
             <p className="text-xs text-[#B5A899] leading-relaxed pr-4">
-              Preserving Kolkata’s authentic handcraft traditions. We specialize in traditional wood block printing, freehand Kalamkari brushwork, hand-wax batik resist, dyeing, texturing, and custom job work on premium Indian textiles.
+              {settings.bio || "✨Experience the timeless elegance of the saree, a symbol of Indian tradition and a celebration of feminine charm with Woven With Dream by Karuna."}
             </p>
 
             <div className="space-y-2 text-xs text-[#D5C9B8]">
@@ -44,6 +44,10 @@ export const Footer: React.FC = () => {
                 <Phone className="w-4 h-4 text-[#C89B54] shrink-0" />
                 <span>{settings.phone}</span>
               </div>
+              <div className="flex items-center gap-2.5">
+                <Mail className="w-4 h-4 text-[#C89B54] shrink-0" />
+                <span>{settings.email || 'karuna.wovenwithdream@gmail.com'}</span>
+              </div>
             </div>
 
             <div className="flex items-center gap-3 pt-2">
@@ -52,7 +56,7 @@ export const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-[#383330] hover:bg-[#8E2A2A] text-white flex items-center justify-center transition-colors shadow-sm"
-                title="Follow us on Instagram"
+                title="Follow us on Instagram @woven_with_dream"
               >
                 <InstagramIcon className="w-4 h-4" />
               </a>
@@ -174,7 +178,7 @@ export const Footer: React.FC = () => {
         {/* Footer Bottom Copyright & Tagline */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#8A7E72]">
           <div className="flex items-center gap-2">
-            <span>© {new Date().getFullYear()} Bahari Block & Hand Painting Unit. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} Woven With Dream by Karuna. All rights reserved.</span>
           </div>
           <div className="flex items-center gap-1">
             <span>Made with patience & character in Kolkata</span>

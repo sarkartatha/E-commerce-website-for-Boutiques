@@ -18,10 +18,10 @@ export const InstagramGallery: React.FC = () => {
             <span>@{settings.instagramHandle}</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1F1C1B]">
-            From Our Workshop to Your Wardrobe
+            From Karuna's Studio to Your Wardrobe
           </h2>
           <p className="text-xs sm:text-sm text-[#6E645A]">
-            Real artisan moments, behind-the-scenes block printing, and customer styling from Kolkata.
+            ✨ Experience the timeless elegance of the saree and handcrafted textiles on Instagram @{settings.instagramHandle}.
           </p>
         </div>
 

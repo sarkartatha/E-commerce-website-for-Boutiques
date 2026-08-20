@@ -28,7 +28,7 @@ export const WhatsAppButton: React.FC = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="bg-emerald-600 hover:bg-emerald-700 text-white p-3.5 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 border-2 border-white"
-        title="Chat with Bahari on WhatsApp"
+        title="Chat with Karuna (Woven With Dream) on WhatsApp"
       >
         <MessageCircle className="w-7 h-7 fill-white text-emerald-600" />
       </a>

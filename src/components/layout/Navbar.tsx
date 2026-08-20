@@ -77,20 +77,21 @@ export const Navbar: React.FC = () => {
             onClick={() => navigateTo('home')}
             className="cursor-pointer flex items-center gap-3 group"
           >
-            {/* Authentic Emblem matching Instagram avatar reference */}
-            <div className="relative w-12 h-12 rounded-full border-2 border-[#8E2A2A] p-0.5 flex items-center justify-center bg-white shadow-sm group-hover:scale-105 transition-transform duration-300">
-              <div className="w-full h-full rounded-full border border-[#8E2A2A]/40 flex flex-col items-center justify-center bg-[#8E2A2A] text-white p-1 text-center">
-                <span className="text-[10px] font-bold tracking-tight font-serif leading-none">বাহারি</span>
-                <span className="text-[8px] font-sans tracking-widest uppercase text-amber-200 mt-0.5">Bahari</span>
-              </div>
+            {/* Profile Avatar / Emblem matching @woven_with_dream */}
+            <div className="relative w-12 h-12 rounded-full border-2 border-[#8E2A2A] overflow-hidden bg-white shadow-sm group-hover:scale-105 transition-transform duration-300">
+              <img
+                src={settings.avatarUrl || '/profile_picture.jpg'}
+                alt="Woven With Dream by Karuna"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <div className="flex flex-col">
               <span className="font-serif text-xl sm:text-2xl font-bold text-[#1F1C1B] tracking-tight group-hover:text-[#8E2A2A] transition-colors leading-none">
-                Bahari
+                Woven With Dream
               </span>
               <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-[#8E2A2A] font-semibold mt-1">
-                Block & Hand Painting Unit
+                by Karuna
               </span>
             </div>
           </div>
@@ -200,10 +201,10 @@ export const Navbar: React.FC = () => {
             <div>
               <div className="flex items-center justify-between pb-6 border-b border-[#E6DDD0]">
                 <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded-full bg-[#8E2A2A] text-white flex items-center justify-center font-serif text-xs font-bold">
-                    ব
+                  <div className="w-8 h-8 rounded-full border border-[#8E2A2A] overflow-hidden bg-white">
+                    <img src={settings.avatarUrl || '/profile_picture.jpg'} alt="Woven With Dream" className="w-full h-full object-cover" />
                   </div>
-                  <span className="font-serif font-bold text-lg">Bahari</span>
+                  <span className="font-serif font-bold text-lg">Woven With Dream</span>
                 </div>
                 <button
                   onClick={() => setMobileMenuOpen(false)}
